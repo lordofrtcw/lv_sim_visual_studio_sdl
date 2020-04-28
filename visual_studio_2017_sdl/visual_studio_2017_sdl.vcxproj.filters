@@ -489,6 +489,33 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lvgl\src\lv_core\lv_debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_roboto_12_subpx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_roboto_28_compressed.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_bidi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_printf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_objx\lv_cpicker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\SHARP_MIP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\UC1610.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\lv_tests\lv_test_objx\lv_test_cpicker\lv_test_cpicker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lvgl\lvgl.h">
@@ -942,6 +969,27 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="lv_ex_conf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_core\lv_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_bidi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_printf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_objx\lv_cpicker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\SHARP_MIP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\UC1610.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_examples\lv_tests\lv_test_objx\lv_test_cpicker\lv_test_cpicker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
