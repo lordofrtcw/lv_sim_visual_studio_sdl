@@ -301,7 +301,7 @@
 /*-------------------------------
  *   Keyboard of a PC (using SDL)
  *------------------------------*/
-#define USE_KEYBOARD    1
+#define USE_KEYBOARD    0
 #ifndef USE_KEYBOARD
 #  define USE_KEYBOARD        0
 #endif
